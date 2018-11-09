@@ -17,11 +17,11 @@
 */
 
 variable project {
-  default = "acme-dev"
+  default = "vzxy-dev"
 }
 
 variable name {
-  default = "acme-dev"
+  default = "vzxy-dev"
 }
 
 variable region {
@@ -33,7 +33,7 @@ variable zone {
 }
 
 variable network_name {
-  default = "acme-dev-cluster"
+  default = "vzxy-dev-cluster"
 }
 
 variable ip_cidr_range {
@@ -108,7 +108,7 @@ variable additional_zones {
 }
 
 variable node_config_svc_account {
-  default = "k8s-nodes-acme-dev-gke"
+  default = "k8s-nodes-vzxy-dev-gke"
 }
 
 variable node_count {
@@ -149,7 +149,7 @@ variable "image_type" {
 
 //provide appropriate path for Bastion VM Image from Packer script output
 variable bastion_image {
-  default = "projects/acme-dev/global/images/acme-ubuntu-1804-bionic-base-1541362924"
+  default = "projects/vzxy-dev/global/images/vzxy-ubuntu-1804-bionic-base-1541362924"
 }
 
 variable min_cpu_platform {
@@ -177,7 +177,7 @@ variable gke_oauth_scopes {
 }
 
 variable bastion_svc_account {
-  default = "bastion-acme-dev-gke"
+  default = "bastion-vzxy-dev-gke"
 }
 
 variable bastion_oath_scopes {
@@ -194,12 +194,12 @@ variable bastion_oath_scopes {
 }
 
 variable ssh_firewall_rule_name {
-  default = "bastion-acme-dev-gke-ssh"
+  default = "bastion-vzxy-dev-gke-ssh"
 }
 
 //update with array of permissable source addresses
 variable ssh_source_ranges {
-  default = ["nnn.nnn.nnn.nnn/32"]
+  default = ["35.203.180.202/32"]
 }
 
 variable "auto_repair" {
