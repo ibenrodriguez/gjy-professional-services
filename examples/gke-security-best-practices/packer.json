@@ -4,9 +4,9 @@
       "type": "googlecompute",
       "project_id": "vzxy-net",
       "ssh_username": "ubuntu",
-      "source_image": "ubuntu-1804-lts-drawfork-shielded-v20181106",
+      "source_image": "ubuntu-1810-cosmic-v20181018",
       "zone": "northamerica-northeast1-a",
-      "image_name": "vzxy-ubuntu-1804{{timestamp}}",
+      "image_name": "vzxy-ubuntu-18{{timestamp}}",
       "image_description":"vzxy-hardened-ubuntu-1804{{timestamp}}",
       "machine_type": "f1-micro"
     }
