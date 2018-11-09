@@ -17,11 +17,11 @@
 */
 
 variable project {
-  default = "vzxy-dev"
+  default = "vzxy-net"
 }
 
 variable name {
-  default = "vzxy-dev"
+  default = "vzxy-net"
 }
 
 variable region {
@@ -33,7 +33,7 @@ variable zone {
 }
 
 variable network_name {
-  default = "vzxy-dev-cluster"
+  default = "vzxy-net-cluster"
 }
 
 variable ip_cidr_range {
@@ -177,7 +177,7 @@ variable gke_oauth_scopes {
 }
 
 variable bastion_svc_account {
-  default = "bastion-vzxy-dev-gke"
+  default = "bastion-vzxy-net-gke"
 }
 
 variable bastion_oath_scopes {
@@ -194,7 +194,7 @@ variable bastion_oath_scopes {
 }
 
 variable ssh_firewall_rule_name {
-  default = "bastion-vzxy-dev-gke-ssh"
+  default = "bastion-vzxy-net-gke-ssh"
 }
 
 //update with array of permissable source addresses
