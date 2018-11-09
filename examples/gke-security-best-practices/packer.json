@@ -4,10 +4,10 @@
       "type": "googlecompute",
       "project_id": "vzxy-net",
       "ssh_username": "ubuntu",
-      "source_image": "ubuntu-1804-bionic-v20180723",
+      "source_image": "ubuntu-1804-lts-drawfork-shielded-v20181106",
       "zone": "us-west2-a",
-      "image_name": "vzxy-ubuntu-1804-bionic-base-{{timestamp}}",
-      "image_description":"vzxy-hardened-ubuntu-1804-bionic-base{{timestamp}}",
+      "image_name": "vzxy-ubuntu-1804{{timestamp}}",
+      "image_description":"vzxy-hardened-ubuntu-1804{{timestamp}}",
       "machine_type": "f1-micro"
     }
 ],
