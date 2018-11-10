@@ -7,7 +7,7 @@
       "source_image": "ubuntu-1810-cosmic-v20181018",
       "zone": "northamerica-northeast1-a",
       "image_name": "vzxy-ubuntu-18{{timestamp}}",
-      "image_description":"vzxy-hardened-ubuntu-1804{{timestamp}}",
+      "image_description":"vzxy-hardened-ubuntu18{{timestamp}}",
       "machine_type": "f1-micro"
     }
 ],
