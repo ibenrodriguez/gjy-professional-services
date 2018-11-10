@@ -71,4 +71,4 @@ sudo rm -rf /usr/local/lib/python2.7/dist-packages/ansible*
 # popd
 
 # no strict modes since our vgs keys are placed in /etc
-sudo sed -i 's/^StrictModes.*/StrictModes no/g' /etc/ssh/sshd_config
+# sudo sed -i 's/^StrictModes.*/StrictModes no/g' /etc/ssh/sshd_config
