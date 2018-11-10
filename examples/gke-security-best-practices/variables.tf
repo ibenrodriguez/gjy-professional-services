@@ -149,7 +149,7 @@ variable "image_type" {
 
 //provide appropriate path for Bastion VM Image from Packer script output
 variable bastion_image {
-  default = "projects/vzxy-dev/global/images/vzxy-ubuntu-1804-bionic-base-1541362924"
+  default = "projects/vzxy-dev/global/images/vzxy-ubuntu-181541814436"
 }
 
 variable min_cpu_platform {
