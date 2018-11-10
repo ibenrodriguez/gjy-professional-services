@@ -108,7 +108,7 @@ variable additional_zones {
 }
 
 variable node_config_svc_account {
-  default = "k8s-nodes-vzxy-dev-gke"
+  default = "k8s-nodes-vzxy-net-gke"
 }
 
 variable node_count {
@@ -149,7 +149,7 @@ variable "image_type" {
 
 //provide appropriate path for Bastion VM Image from Packer script output
 variable bastion_image {
-  default = "projects/vzxy-dev/global/images/vzxy-ubuntu-181541814436"
+  default = "projects/vzxy-net/global/images/vzxy-ubuntu-181541814436"
 }
 
 variable min_cpu_platform {
